@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class GithubCicdActionsApplication {
+public class TesteDevopsAutomationApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
 		return "Hello!!";
 	}
 	public static void main(String[] args) {
-		SpringApplication.run(GithubCicdActionsApplication.class, args);
+		SpringApplication.run(TesteDevopsAutomationApplication.class, args);
 	}
 
 }
